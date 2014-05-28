@@ -4,7 +4,7 @@
  * Original library: https://github.com/mk-j/PHP_XLSXWriter
  */
 
-namespace Berg\XlsxWriter;
+namespace Berg\Xlsx;
 
 class XlsxWriter
 {
