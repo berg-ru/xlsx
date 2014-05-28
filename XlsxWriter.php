@@ -1,13 +1,13 @@
 <?php
+
 /*
- * @license MIT License
- * */
+ * Original library: https://github.com/mk-j/PHP_XLSXWriter
+ */
 
-if (!class_exists('ZipArchive')) { throw new Exception('ZipArchive not found'); }
+namespace Berg\XlsxWriter;
 
-Class XLSXWriter
+class XlsxWriter
 {
-	//------------------------------------------------------------------
 	protected $author ='Doc Author';
 	protected $sheets_meta = array();
 	protected $shared_strings = array();//unique set
@@ -450,11 +450,4 @@ Class XLSXWriter
 
 		return $days + $seconds;
 	}
-	//------------------------------------------------------------------
 }
-
-
-
-
-
-
